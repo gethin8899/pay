@@ -1,16 +1,16 @@
 {
-    "name": "yansongda/pay",
+    "name": "gethin8899/pay",
     "description": "专注 Alipay 和 WeChat 的支付扩展包",
     "keywords": ["alipay", "wechat", "pay"],
     "type": "library",
     "support": {
-        "issues": "https://github.com/yansongda/pay/issues",
-        "source": "https://github.com/yansongda/pay"
+        "issues": "https://github.com/gethin8899/pay/issues",
+        "source": "https://github.com/gethin8899/pay"
     },
     "authors": [
         {
-            "name": "yansongda",
-            "email": "me@yansongda.cn"
+            "name": "gethin8899",
+            "email": "me@gethin8899.cn"
         }
     ],
     "require": {
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Yansongda\\Pay\\": "src"
+            "Gethin8899\\Pay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yansongda\\Pay\\Tests\\": "tests"
+            "Gethin8899\\Pay\\Tests\\": "tests"
         }
     },
     "license": "MIT"
