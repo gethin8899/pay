@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Exceptions;
+namespace Gethin8899\Pay\Exceptions;
 
 class InvalidGatewayException extends Exception
 {

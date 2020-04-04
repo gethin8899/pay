@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Wechat;
+namespace Gethin8899\Pay\Gateways\Wechat;
 
 use Symfony\Component\HttpFoundation\Request;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Wechat;
+use Gethin8899\Pay\Events;
+use Gethin8899\Pay\Exceptions\GatewayException;
+use Gethin8899\Pay\Exceptions\InvalidArgumentException;
+use Gethin8899\Pay\Exceptions\InvalidSignException;
+use Gethin8899\Pay\Gateways\Wechat;
 use Yansongda\Supports\Collection;
 
 class TransferGateway extends Gateway

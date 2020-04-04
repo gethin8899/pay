@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay;
+namespace Gethin8899\Pay;
 
 use Yansongda\Supports\Log as BaseLog;
 

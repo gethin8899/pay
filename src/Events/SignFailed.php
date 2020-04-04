@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Events;
+namespace Gethin8899\Pay\Events;
 
 class SignFailed extends Event
 {

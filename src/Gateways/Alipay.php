@@ -1,18 +1,18 @@
 <?php
 
-namespace Yansongda\Pay\Gateways;
+namespace Gethin8899\Pay\Gateways;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Contracts\GatewayInterface;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Alipay\Support;
+use Gethin8899\Pay\Contracts\GatewayApplicationInterface;
+use Gethin8899\Pay\Contracts\GatewayInterface;
+use Gethin8899\Pay\Events;
+use Gethin8899\Pay\Exceptions\GatewayException;
+use Gethin8899\Pay\Exceptions\InvalidArgumentException;
+use Gethin8899\Pay\Exceptions\InvalidConfigException;
+use Gethin8899\Pay\Exceptions\InvalidGatewayException;
+use Gethin8899\Pay\Exceptions\InvalidSignException;
+use Gethin8899\Pay\Gateways\Alipay\Support;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Str;

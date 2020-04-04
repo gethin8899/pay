@@ -1,8 +1,8 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Wechat;
+namespace Gethin8899\Pay\Gateways\Wechat;
 
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
+use Gethin8899\Pay\Exceptions\InvalidArgumentException;
 
 class RefundGateway extends Gateway
 {

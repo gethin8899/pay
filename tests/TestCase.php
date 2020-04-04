@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Tests;
+namespace Gethin8899\Pay\Tests;
 
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
